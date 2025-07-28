@@ -13,12 +13,7 @@ A simple FastAPI web application to generate an access token from Sharekhan's AP
 
 ## 📁 Project Structure
 
-├── main.py # FastAPI app with routes and logic
-├── templates/
-│ ├── index.html # Input form for credentials
-│ └── result.html # Token or error display
-├── static/ # Optional: static files like CSS/JS
-└── README.md # This file
+<pre> ```bash 📁 Project Structure ├── app.py # FastAPI app with routes and logic ├── templates/ │ ├── index.html # Input form for credentials │ └── result.html # Token or error display ├── static/ # Optional: static files like CSS/JS └── README.md # This file ``` </pre>
 
 ---
 
@@ -30,8 +25,8 @@ A simple FastAPI web application to generate an access token from Sharekhan's AP
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sharekhan-token-generator.git
-cd sharekhan-token-generator
+git clone https://github.com/your-username/Token-Generator.git
+cd Token-Generator
 ```
 
 ---
@@ -59,7 +54,6 @@ venv\Scripts\activate
 
 ## Run the Application
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
-
 
