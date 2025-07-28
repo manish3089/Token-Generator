@@ -13,7 +13,7 @@ A simple FastAPI web application to generate an access token from Sharekhan's AP
 
 ## 📁 Project Structure
 
-<pre> ```bash 📁 Project Structure ├── app.py # FastAPI app with routes and logic ├── templates/ │ ├── index.html # Input form for credentials │ └── result.html # Token or error display ├── static/ # Optional: static files like CSS/JS └── README.md # This file ``` </pre>
+```bash 📁 Project Structure ├── app.py # FastAPI app with routes and logic ├── templates/ │ ├── index.html # Input form for credentials │ └── result.html # Token or error display ├── static/ # Optional: static files like CSS/JS └── README.md # This file ```
 
 ---
 
